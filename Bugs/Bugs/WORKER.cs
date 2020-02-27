@@ -8,5 +8,8 @@ namespace Bugs
 {
     class WORKER
     {
+        public string login;
+        public string role;
+        public int password;
     }
 }

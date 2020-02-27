@@ -8,5 +8,7 @@ namespace Bugs
 {
     class SOLUTION
     {
+        public string description;
+        public int raiting;
     }
 }

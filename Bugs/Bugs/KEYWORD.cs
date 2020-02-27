@@ -8,5 +8,6 @@ namespace Bugs
 {
     class KEYWORD
     {
+        public string name;
     }
 }

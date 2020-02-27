@@ -8,5 +8,10 @@ namespace Bugs
 {
     class ERROR
     {
+        public string code;
+        public string description;
+        public string keyword;
+        public string variety;
+        public DateTime dataivremya;
     }
 }
