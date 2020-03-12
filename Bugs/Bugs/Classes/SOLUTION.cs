@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Bugs
+namespace Bugs.Classes
 {
     class SOLUTION
     {
+        [Key]
+        public int Id { get; set; }
         public string Description { get; set; }
         public int Raiting { get; set; }
         public int ErrorId { get; set; }
