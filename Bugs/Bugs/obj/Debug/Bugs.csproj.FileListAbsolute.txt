@@ -1,1 +1,14 @@
 C:\Users\Student\Desktop\BugTracking\Bugs\Bugs\bin\Debug\Bugs.exe.config
+C:\Users\Student\Desktop\bugtracking\Bugs\Bugs\obj\Debug\Bugs.exe
+C:\Users\Student\Desktop\bugtracking\Bugs\Bugs\obj\Debug\Bugs.pdb
+C:\Users\Student\Desktop\bugtracking\Bugs\Bugs\bin\Debug\Bugs.exe
+C:\Users\Student\Desktop\bugtracking\Bugs\Bugs\bin\Debug\Bugs.pdb
+C:\Users\Student\Desktop\bugtracking\Bugs\Bugs\bin\Debug\EntityFramework.dll
+C:\Users\Student\Desktop\bugtracking\Bugs\Bugs\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Student\Desktop\bugtracking\Bugs\Bugs\bin\Debug\EntityFramework.xml
+C:\Users\Student\Desktop\bugtracking\Bugs\Bugs\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Student\Desktop\bugtracking\Bugs\Bugs\obj\Debug\Bugs.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form1.resources
+C:\Users\Student\Desktop\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Properties.Resources.resources
+C:\Users\Student\Desktop\bugtracking\Bugs\Bugs\obj\Debug\Bugs.csproj.GenerateResource.Cache
+C:\Users\Student\Desktop\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Migrations.First.resources

@@ -15,7 +15,6 @@ namespace Bugs.Classes
         public string Code { get; set; }
         public string Description { get; set; }
        
-        public string Keyword { get; set; }
         public string Variety { get; set; }
         public DateTime Dataivremya { get; set; }
         public virtual ICollection<SOLUTION> Solutions { get; set; }
