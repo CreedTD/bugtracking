@@ -21,5 +21,22 @@ namespace Bugs
         {
             this.Close();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form4 newForm = new Form4();
+            newForm.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form5 newForm = new Form5();
+            newForm.Show();
+        }
     }
 }

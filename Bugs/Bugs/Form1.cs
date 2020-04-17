@@ -19,25 +19,9 @@ namespace Bugs
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 newForm = new Form3();
-            newForm.Show();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
             Form2 newForm = new Form2();
             newForm.Show();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
             this.Close();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form4 newForm = new Form4();
-            newForm.Show();
         }
     }
 }
