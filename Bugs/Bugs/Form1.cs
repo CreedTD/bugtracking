@@ -33,5 +33,11 @@ namespace Bugs
         {
             this.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form4 newForm = new Form4();
+            newForm.Show();
+        }
     }
 }
