@@ -141,3 +141,27 @@ C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс — копия\bugtracking\Bugs\
 C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс — копия\bugtracking\Bugs\Bugs\bin\Debug\EntityFramework.xml
 C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс — копия\bugtracking\Bugs\Bugs\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс — копия\bugtracking\Bugs\Bugs\obj\Debug\Bugs.csproj.CopyComplete
+C:\Users\Михаил\bugtracking\Bugs\Bugs\bin\Debug\Bugs.exe.config
+C:\Users\Михаил\bugtracking\Bugs\Bugs\bin\Debug\Bugs.exe
+C:\Users\Михаил\bugtracking\Bugs\Bugs\bin\Debug\Bugs.pdb
+C:\Users\Михаил\bugtracking\Bugs\Bugs\bin\Debug\EntityFramework.dll
+C:\Users\Михаил\bugtracking\Bugs\Bugs\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Михаил\bugtracking\Bugs\Bugs\bin\Debug\EntityFramework.xml
+C:\Users\Михаил\bugtracking\Bugs\Bugs\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.csprojAssemblyReference.cache
+C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form1.resources
+C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form2.resources
+C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form3.resources
+C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form4.resources
+C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form5.resources
+C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form6.resources
+C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form7.resources
+C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form8.resources
+C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form9.resources
+C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Migrations.First.resources
+C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Properties.Resources.resources
+C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.csproj.GenerateResource.cache
+C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.csproj.CoreCompileInputs.cache
+C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.csproj.CopyComplete
+C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.exe
+C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.pdb

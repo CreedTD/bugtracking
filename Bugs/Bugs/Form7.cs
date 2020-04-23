@@ -42,7 +42,6 @@ namespace Bugs
 
             dataGridView1.DataSource = ds.Workers.Local.ToBindingList();
         }
-
         private void button3_Click(object sender, EventArgs e)
         {
 
