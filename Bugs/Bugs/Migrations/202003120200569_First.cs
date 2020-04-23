@@ -57,7 +57,7 @@
                         Login = c.String(nullable: false, maxLength: 128),
                         Role = c.Boolean(nullable: false),
                         Password = c.Int(nullable: false),
-                    })
+                })
                 .PrimaryKey(t => t.Login);
             
         }

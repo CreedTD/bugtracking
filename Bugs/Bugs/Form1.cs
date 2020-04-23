@@ -14,25 +14,16 @@ namespace Bugs
 {
     public partial class Form1 : Form
     {
-        UserContext db;
+        UserContext db = new UserContext();
         public Form1()
         {
             InitializeComponent();
-            db = new UserContext();
-            db.Workers.Load();
-
-            dataGridView1.DataSource = db.Workers.Local.ToBindingList();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 newForm = new Form2();
-            newForm.Show();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
+                Form2 newForm = new Form2();
+                newForm.Show();
         }
     }
 }

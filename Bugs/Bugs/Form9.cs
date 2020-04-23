@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bugs.Classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,17 +20,28 @@ namespace Bugs
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //возвращается туда же что и кнопка назад но добавляет данные
-            Form7 newForm = new Form7();
-            newForm.Show();
+            using (UserContext dc = new UserContext())
+            {
+                WORKER worker = new WORKER();
+                worker.Login = textBox1.Text;
+                if (checkBox1.Checked){
+                    worker.Role = true;
+                }else {
+                    worker.Role = false;
+                }
+                worker.Password = Convert.ToInt32(textBox2.Text);
+
+                dc.Workers.Add(worker);
+                dc.SaveChanges();
+            }
+            MessageBox.Show("Вы зарегистрировали пользователя");
             this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form7 newForm = new Form7();
-            newForm.Show();
             this.Close();
         }
+        
     }
 }
