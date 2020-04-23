@@ -26,21 +26,18 @@ namespace Bugs
         {
             Form6 newForm = new Form6();
             newForm.Show();
-            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Form3 newForm = new Form3();
             newForm.Show();
-            this.Close();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             Form8 newForm = new Form8();
             newForm.Show();
-            this.Close();
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -52,7 +49,6 @@ namespace Bugs
         {
             Form7 newForm = new Form7();
             newForm.Show();
-            this.Close();
         }
     }
 }

@@ -93,3 +93,27 @@ C:\Users\User\Downloads\a\a\Bugs\Bugs\obj\Debug\Bugs.csproj.CoreCompileInputs.ca
 C:\Users\User\Downloads\a\a\Bugs\Bugs\obj\Debug\Bugs.csproj.CopyComplete
 C:\Users\User\Downloads\a\a\Bugs\Bugs\obj\Debug\Bugs.exe
 C:\Users\User\Downloads\a\a\Bugs\Bugs\obj\Debug\Bugs.pdb
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\bin\Debug\Bugs.exe.config
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\bin\Debug\Bugs.exe
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\bin\Debug\Bugs.pdb
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\obj\Debug\Bugs.csprojAssemblyReference.cache
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form1.resources
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form2.resources
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form3.resources
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form4.resources
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form5.resources
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form6.resources
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form7.resources
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form8.resources
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form9.resources
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Migrations.First.resources
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Properties.Resources.resources
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\obj\Debug\Bugs.csproj.GenerateResource.cache
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\obj\Debug\Bugs.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\obj\Debug\Bugs.csproj.CopyComplete
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\obj\Debug\Bugs.exe
+C:\Users\User\Desktop\ПРОЕКТ СЕЙЧАс\bugtracking\Bugs\Bugs\obj\Debug\Bugs.pdb
