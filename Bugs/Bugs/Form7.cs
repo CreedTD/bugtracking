@@ -62,5 +62,11 @@ namespace Bugs
                 }
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form10 newForm = new Form10();
+            newForm.Show();
+        }
     }
 }
