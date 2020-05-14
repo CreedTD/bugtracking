@@ -165,3 +165,4 @@ C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.csproj.CoreCompileInp
 C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.csproj.CopyComplete
 C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.exe
 C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.pdb
+C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form10.resources

@@ -22,7 +22,11 @@ namespace Bugs
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            /*WORKER worker = new WORKER();
+            worker.Login = textBox1.Text;
+            worker.Password = Convert.ToInt32(textBox2.Text);
+            if (worker.Login && worker.Password)
+            */
             Form2 newForm = new Form2();
                 newForm.Show();
         }

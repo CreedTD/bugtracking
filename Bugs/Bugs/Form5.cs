@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bugs.Classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,8 +20,19 @@ namespace Bugs
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 newForm = new Form3();
-            newForm.Show();
+            using (UserContext dc = new UserContext())
+            {
+                ERROR error = new ERROR();
+
+                error.Id = Convert.ToInt32(textBox4.Text);
+                error.Code = textBox1.Text;
+                error.Description = textBox2.Text;
+                error.Variety = textBox5.Text;
+
+                dc.Errors.Add(error);
+                dc.SaveChanges();
+            }
+            MessageBox.Show("Вы зарегистрировали ошибку");
             this.Close();
         }
     }

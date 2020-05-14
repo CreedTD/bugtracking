@@ -37,10 +37,8 @@ namespace Bugs
 
         private void button5_Click(object sender, EventArgs e)
         {
-            UserContext ds = new UserContext();
-            ds.Workers.Load();
-
-            dataGridView1.DataSource = ds.Workers.Local.ToBindingList();
+            db.Workers.Load();
+            dataGridView1.DataSource = db.Workers.Local.ToBindingList();
         }
         private void button3_Click(object sender, EventArgs e)
         {
