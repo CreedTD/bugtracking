@@ -13,6 +13,7 @@ namespace Bugs
 {
     public partial class Form9 : Form
     {
+        public UserContext DB { get; set; }
         public Form9()
         {
             InitializeComponent();
@@ -20,27 +21,21 @@ namespace Bugs
 
         private void button1_Click(object sender, EventArgs e)
         {
-            using (UserContext dc = new UserContext())
+            WORKER w = new WORKER()
             {
-                WORKER worker = new WORKER();
-                worker.Login = textBox1.Text;
-                if (checkBox1.Checked){
-                    worker.Role = true;
-                }else {
-                    worker.Role = false;
-                }
-                worker.Password = Convert.ToInt32(textBox2.Text);
-
-                dc.Workers.Add(worker);
-                dc.SaveChanges();
-            }
+                Login = textBox1.Text,
+                Role = checkBox1.Checked,
+                Password = Convert.ToInt32(textBox2.Text)
+            };
+            DB.Workers.Add(w);
+            DB.SaveChanges();
             MessageBox.Show("Вы зарегистрировали пользователя");
-            this.Close();
+            Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
         }
         
     }

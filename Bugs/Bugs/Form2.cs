@@ -47,8 +47,8 @@ namespace Bugs
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form7 newForm = new Form7();
-            newForm.Show();
+            Form7 addForm = new Form7();
+            addForm.ShowDialog();
         }
     }
 }

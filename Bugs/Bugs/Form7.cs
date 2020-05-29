@@ -24,13 +24,15 @@ namespace Bugs
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form9 newForm = new Form9();
-            newForm.Show();
+            Form9 addForm = new Form9();
+            addForm.DB = this.DB;
+            addForm.ShowDialog();
+            dataGridView1.DataSource = DB.Workers.ToList();
         }
 
         private void button5_Click(object sender, EventArgs e)
