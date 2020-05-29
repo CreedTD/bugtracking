@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Bugs.Classes
 {
-    class ERROR
+    public class ERROR
     {
         [Key]
         public int Id { get; set; }

@@ -15,13 +15,14 @@ namespace Bugs
 {
     public partial class Form7 : Form
     {
-        UserContext db = new UserContext();
+        public UserContext DB { get; set; }
+        //UserContext db = new UserContext();
         public Form7()
         {
             InitializeComponent();
-            db.Workers.Load();
+     //       db.Workers.Load();
 
-            dataGridView1.DataSource = db.Workers.Local.ToBindingList();
+     //       dataGridView1.DataSource = db.Workers.Local.ToBindingList();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -37,8 +38,8 @@ namespace Bugs
 
         private void button5_Click(object sender, EventArgs e)
         {
-            db.Workers.Load();
-            dataGridView1.DataSource = db.Workers.Local.ToBindingList();
+        //    db.Workers.Load();
+        //    dataGridView1.DataSource = db.Workers.Local.ToBindingList();
         }
         private void button3_Click(object sender, EventArgs e)
         {
@@ -65,6 +66,12 @@ namespace Bugs
         {
             Form10 newForm = new Form10();
             newForm.Show();
+        }
+
+        private void Form7_Load(object sender, EventArgs e)
+        {
+            DB = new UserContext();
+            dataGridView1.DataSource = DB.Workers.ToList();
         }
     }
 }
