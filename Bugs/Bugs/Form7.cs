@@ -20,9 +20,6 @@ namespace Bugs
         public Form7()
         {
             InitializeComponent();
-     //       db.Workers.Load();
-
-     //       dataGridView1.DataSource = db.Workers.Local.ToBindingList();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -72,6 +69,9 @@ namespace Bugs
         {
             DB = new UserContext();
             dataGridView1.DataSource = DB.Workers.ToList();
+            dataGridView1.Columns[0].HeaderText = "Логин";
+            dataGridView1.Columns[1].HeaderText = "Роль админа";
+            dataGridView1.Columns[2].HeaderText = "Пароль";
         }
     }
 }
