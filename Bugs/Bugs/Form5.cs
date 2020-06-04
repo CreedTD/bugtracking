@@ -13,6 +13,7 @@ namespace Bugs
 {
     public partial class Form5 : Form
     {
+        public UserContext DB { get; set; }
         public Form5()
         {
             InitializeComponent();
@@ -20,20 +21,74 @@ namespace Bugs
 
         private void button1_Click(object sender, EventArgs e)
         {
-            using (UserContext dc = new UserContext())
+
+            ERROR err = new ERROR()
             {
-                ERROR error = new ERROR();
-
-                error.Id = Convert.ToInt32(textBox4.Text);
-                error.Code = textBox1.Text;
-                error.Description = textBox2.Text;
-                error.Variety = textBox5.Text;
-
-                dc.Errors.Add(error);
-                dc.SaveChanges();
-            }
+                Code = textBox1.Text,
+                Variety  = textBox5.Text,
+                Description = textBox2.Text,
+                //Keyword = textBox3.Text,//virtual
+                //Id=(textBox4.Text),//convert
+            };
+            DB.Errors.Add(err);
+            DB.SaveChanges();// выдает ошибку
             MessageBox.Show("Вы зарегистрировали ошибку");
-            this.Close();
+            Close();
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

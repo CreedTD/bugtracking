@@ -16,7 +16,7 @@ namespace Bugs
     public partial class Form7 : Form
     {
         public UserContext DB { get; set; }
-        //UserContext db = new UserContext();
+        
         public Form7()
         {
             InitializeComponent();
@@ -61,7 +61,7 @@ namespace Bugs
             }*/
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e) //Редактировать
         {
             var login = dataGridView1.CurrentRow.Cells[0].Value;
             WORKER w = (from worker in DB.Workers

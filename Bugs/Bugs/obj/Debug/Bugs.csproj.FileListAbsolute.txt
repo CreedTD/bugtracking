@@ -192,3 +192,5 @@ C:\Users\User\Desktop\29.05\bugtracking\Bugs\Bugs\obj\Debug\Bugs.csproj.CopyComp
 C:\Users\User\Desktop\29.05\bugtracking\Bugs\Bugs\obj\Debug\Bugs.exe
 C:\Users\User\Desktop\29.05\bugtracking\Bugs\Bugs\obj\Debug\Bugs.pdb
 C:\Users\User\Desktop\29.05\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Migrations.Second.resources
+C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Migrations.Second.resources
+C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form11.resources
