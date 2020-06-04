@@ -43,7 +43,7 @@ namespace Bugs
         private void button3_Click(object sender, EventArgs e)
         {
 
-            string connectionString = @"data source=(LocalDB)\v11.0; Initial Catalog = userstore; Integrated Security=True;";
+           /* string connectionString = @"data source=(LocalDB)\v11.0; Initial Catalog = userstore; Integrated Security=True;";
             using (SqlConnection con = new SqlConnection(connectionString))
             {
                 SqlCommand com = new SqlCommand("DELETE FROM workers WHERE Login=@id", con);
@@ -58,13 +58,20 @@ namespace Bugs
                 {
                     MessageBox.Show("Удалить не удалось!");
                 }
-            }
+            }*/
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form10 newForm = new Form10();
-            newForm.Show();
+            var login = dataGridView1.CurrentRow.Cells[0].Value;
+            WORKER w = (from worker in DB.Workers
+                        where worker.Login == login
+                        select worker).FirstOrDefault<WORKER>();
+            Form10 addForm = new Form10();
+            addForm.Workerq = w;
+            addForm.DB = this.DB;
+            addForm.ShowDialog();
+            dataGridView1.DataSource = DB.Workers.ToList();
         }
 
         private void Form7_Load(object sender, EventArgs e)

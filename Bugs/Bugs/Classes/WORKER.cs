@@ -13,6 +13,6 @@ namespace Bugs.Classes
         [Key]
         public string Login { get; set; }
         public bool Role { get; set; }
-        public int Password { get; set; }
+        public string Password { get; set; }
     }
 }

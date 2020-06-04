@@ -191,3 +191,4 @@ C:\Users\User\Desktop\29.05\bugtracking\Bugs\Bugs\obj\Debug\Bugs.csproj.CoreComp
 C:\Users\User\Desktop\29.05\bugtracking\Bugs\Bugs\obj\Debug\Bugs.csproj.CopyComplete
 C:\Users\User\Desktop\29.05\bugtracking\Bugs\Bugs\obj\Debug\Bugs.exe
 C:\Users\User\Desktop\29.05\bugtracking\Bugs\Bugs\obj\Debug\Bugs.pdb
+C:\Users\User\Desktop\29.05\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Migrations.Second.resources

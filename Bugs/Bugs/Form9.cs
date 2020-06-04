@@ -25,7 +25,7 @@ namespace Bugs
             {
                 Login = textBox1.Text,
                 Role = checkBox1.Checked,
-                Password = Convert.ToInt32(textBox2.Text)
+                Password = textBox2.Text
             };
             DB.Workers.Add(w);
             DB.SaveChanges();
