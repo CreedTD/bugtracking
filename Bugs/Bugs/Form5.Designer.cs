@@ -50,7 +50,6 @@
             this.label1.Size = new System.Drawing.Size(67, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Код ошибки";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -60,7 +59,6 @@
             this.label2.Size = new System.Drawing.Size(98, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Описание ошибки";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -70,7 +68,6 @@
             this.label3.Size = new System.Drawing.Size(92, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "Ключевые слова";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox1
             // 
@@ -78,7 +75,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 3;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -86,7 +82,6 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 4;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
@@ -94,7 +89,6 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 5;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // button1
             // 
@@ -114,7 +108,6 @@
             this.label4.Size = new System.Drawing.Size(18, 13);
             this.label4.TabIndex = 7;
             this.label4.Text = "ID";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // textBox4
             // 
@@ -122,7 +115,6 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 8;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // label5
             // 
@@ -132,7 +124,6 @@
             this.label5.Size = new System.Drawing.Size(67, 13);
             this.label5.TabIndex = 9;
             this.label5.Text = "Вид ошибки";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // textBox5
             // 
@@ -140,7 +131,6 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 10;
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // dateTimePicker1
             // 
@@ -148,7 +138,6 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 11;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // Form5
             // 
