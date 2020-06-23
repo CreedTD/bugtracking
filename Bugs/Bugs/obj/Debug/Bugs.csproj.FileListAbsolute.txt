@@ -194,3 +194,6 @@ C:\Users\User\Desktop\29.05\bugtracking\Bugs\Bugs\obj\Debug\Bugs.pdb
 C:\Users\User\Desktop\29.05\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Migrations.Second.resources
 C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Migrations.Second.resources
 C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Form11.resources
+C:\Users\Михаил\bugtracking\Bugs\Bugs\obj\Debug\Bugs.Migrations.Third.resources
+C:\Users\Михаил\bugtracking\Bugs\Bugs\bin\Debug\userstore.mdf
+C:\Users\Михаил\bugtracking\Bugs\Bugs\bin\Debug\userstore_log.ldf
