@@ -24,14 +24,15 @@ namespace Bugs
 
             ERROR err = new ERROR()
             {
+                Id = Convert.ToInt32(textBox4.Text),
                 Code = textBox1.Text,
-                Variety  = textBox5.Text,
                 Description = textBox2.Text,
+                Variety = textBox5.Text,
+                Dataivremya = dateTimePicker1.Value
                 //Keyword = textBox3.Text,//virtual
-                //Id=(textBox4.Text),//convert
             };
             DB.Errors.Add(err);
-            //DB.SaveChanges();// выдает ошибку
+            DB.SaveChanges();// выдает ошибку
             MessageBox.Show("Вы зарегистрировали ошибку");
             Close();
         }
