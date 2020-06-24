@@ -36,7 +36,6 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button5 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -64,7 +63,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(589, 176);
+            this.button2.Location = new System.Drawing.Point(589, 77);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(161, 23);
             this.button2.TabIndex = 4;
@@ -100,16 +99,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(533, 326);
             this.dataGridView1.TabIndex = 7;
             // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(589, 108);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(161, 23);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "Обновить список";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -134,7 +123,6 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button5);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -158,7 +146,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox1;
     }

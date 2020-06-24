@@ -34,12 +34,7 @@ namespace Bugs
             addForm.ShowDialog();
             dataGridView1.DataSource = DB.Workers.ToList();
         }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-        //    db.Workers.Load();
-        //    dataGridView1.DataSource = db.Workers.Local.ToBindingList();
-        }
+        
         private void button3_Click(object sender, EventArgs e)
         {
 

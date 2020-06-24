@@ -50,9 +50,6 @@ namespace Bugs
             dataGridView1.DataSource = DB.Errors.ToList();
         }
 
-        private void button6_Click(object sender, EventArgs e) //Обновить
-        {
-        }
 
         private void button7_Click(object sender, EventArgs e) //Удалить пользователя
         {
@@ -84,22 +81,28 @@ namespace Bugs
             dataGridView1.Columns[3].HeaderText = "Разновидность";
             dataGridView1.Columns[4].HeaderText = "Дата";
             dataGridView1.Columns[5].HeaderText = "Решения";
-            dataGridView1.Columns[6].HeaderText = "Ключевые слова";
+            dataGridView1.Columns[6].Visible = false;
             dataGridView1.Columns[7].HeaderText = "Работник";
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)  //Редактировать ошибку
+
         {
             /*var id = dataGridView1.CurrentRow.Cells[0].Value;
             ERROR e = (from error in DB.Errors
                         where error.Id == id
                         select error).FirstOrDefault<ERROR>();
             Form11 addForm = new Form11();
-            addForm.Workerq = e;
+            addForm.Errorq= e;
             addForm.DB = this.DB;
             addForm.ShowDialog();
-            dataGridView1.DataSource = DB.Workers.ToList();*/
+            dataGridView1.DataSource = DB.Errors.ToList();*/
  
     }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

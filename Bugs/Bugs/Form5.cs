@@ -32,7 +32,7 @@ namespace Bugs
                 //Keyword = textBox3.Text,//virtual
             };
             DB.Errors.Add(err);
-            DB.SaveChanges();// выдает ошибку
+            DB.SaveChanges();
             MessageBox.Show("Вы зарегистрировали ошибку");
             Close();
         }
