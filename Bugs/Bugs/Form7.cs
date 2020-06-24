@@ -38,7 +38,7 @@ namespace Bugs
         private void button3_Click(object sender, EventArgs e)
         {
 
-           /* string connectionString = @"data source=(LocalDB)\v11.0; Initial Catalog = userstore; Integrated Security=True;";
+            string connectionString = @"data source=(LocalDB)\v11.0; Initial Catalog = userstore; Integrated Security=True;";
             using (SqlConnection con = new SqlConnection(connectionString))
             {
                 SqlCommand com = new SqlCommand("DELETE FROM workers WHERE Login=@id", con);
@@ -53,7 +53,7 @@ namespace Bugs
                 {
                     MessageBox.Show("Удалить не удалось!");
                 }
-            }*/
+            }
         }
 
         private void button2_Click(object sender, EventArgs e) //Редактировать

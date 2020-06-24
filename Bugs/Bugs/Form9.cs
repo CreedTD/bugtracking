@@ -21,16 +21,27 @@ namespace Bugs
 
         private void button1_Click(object sender, EventArgs e)
         {
-            WORKER w = new WORKER()
+            string login = textBox1.Text;
+            WORKER q = (from worker in DB.Workers
+                        where worker.Login == login
+                        select worker).FirstOrDefault<WORKER>();
+            if (q != null)
             {
-                Login = textBox1.Text,
-                Role = checkBox1.Checked,
-                Password = textBox2.Text
-            };
-            DB.Workers.Add(w);
-            DB.SaveChanges();
-            MessageBox.Show("Вы зарегистрировали пользователя");
-            Close();
+                MessageBox.Show("Пользователь с таким логином уже существует");
+            }
+            else
+            {
+                WORKER w = new WORKER()
+                {
+                    Login = textBox1.Text,
+                    Role = checkBox1.Checked,
+                    Password = textBox2.Text
+                };
+                DB.Workers.Add(w);
+                DB.SaveChanges();
+                MessageBox.Show("Вы зарегистрировали пользователя");
+                Close();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
